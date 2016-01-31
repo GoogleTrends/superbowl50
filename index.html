@@ -395,15 +395,15 @@ body {
                     });
 
                 d3.selectAll(".rank")
-                    .transition()
+                    // .transition()
                     .style("opacity", 0)
 
                 d3.selectAll(".team")
-                    .transition()
+                    // .transition()
                     .style("opacity", 0)
 
                 d3.selectAll("#top10")
-                    .transition()
+                    // .transition()
                     .style("opacity", 0)
 
                 svg.append("text")
@@ -429,7 +429,7 @@ body {
 
                 d3.select("#rect")
                     .transition()
-                    .duration(10)
+                    // .duration(10)
                     .attr("height", 120);
             })
             .on("mouseout", function() {
@@ -597,18 +597,18 @@ body {
                     });
 
                 d3.selectAll(".rank")
-                    .transition()
-                    .duration(10)
+                    // .transition()
+                    // .duration(10)
                     .style("opacity", 0)
 
                 d3.selectAll(".team")
-                    .transition()
-                    .duration(10)
+                    // .transition()
+                    // .duration(10)
                     .style("opacity", 0)
 
                 d3.selectAll("#top10")
-                    .transition()
-                    .duration(10)
+                    // .transition()
+                    // .duration(10)
                     .style("opacity", 0)
 
                 svg.append("text")
