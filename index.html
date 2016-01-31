@@ -438,8 +438,8 @@ body {
                     .transition()
                     // .duration(10)
                     .attr("height", 120);
-            });
-            // .on("mouseout", function() {
+            })
+            .on("mouseout", function() {
                 
             //     if (screenWidth > 420) {
 
@@ -466,18 +466,18 @@ body {
             //     d3.select("#this")
             //         .remove();
 
-            //     d3.selectAll(".cityPts")
-            //         .transition()
-            //         .duration(100)
-            //         .style("fill", "lightgrey")
-            //         .attr("r", function(d, i) {
-            //             return arcdata[i].index * .1;
-            //         });
+                d3.selectAll(".cityPts")
+                    .transition()
+                    .duration(100)
+                    .style("fill", "lightgrey")
+                    .attr("r", function(d, i) {
+                        return arcdata[i].index * .1;
+                    });
 
-            //     d3.selectAll(".rankNm")
-            //         .transition()
-            //         .duration(100)
-            //         .style("opacity", 0);
+                d3.selectAll(".rankNm")
+                    .transition()
+                    .duration(100)
+                    .style("opacity", 0);
 
             //     d3.select("#rect")
             //         .transition()
@@ -495,7 +495,7 @@ body {
             //             };
             //         })
 
-            // });
+            });
 
 
 
@@ -651,8 +651,8 @@ body {
                     .transition()
                     .duration(10)
                     .attr("height", 120);
-            });
-            // .on("mouseout", function() {
+            })
+            .on("mouseout", function() {
 
             //     if (screenWidth > 420){
 
@@ -680,18 +680,18 @@ body {
             //     d3.select("#this")
             //         .remove();
 
-            //     d3.selectAll(".cityPts")
-            //         .transition()
-            //         .duration(100)
-            //         .style("fill", "lightgrey")
-            //         .attr("r", function(d, i) {
-            //             return arcdata[i].index * .1;
-            //         });
+                d3.selectAll(".cityPts")
+                    .transition()
+                    .duration(100)
+                    .style("fill", "lightgrey")
+                    .attr("r", function(d, i) {
+                        return arcdata[i].index * .1;
+                    });
 
-            //     d3.selectAll(".rankNm")
-            //         .transition()
-            //         .duration(100)
-            //         .style("opacity", 0);
+                d3.selectAll(".rankNm")
+                    .transition()
+                    .duration(100)
+                    .style("opacity", 0);
 
             //     d3.select("#rect")
             //         .transition()
@@ -709,7 +709,7 @@ body {
             //             };
             //         })
 
-            // });
+            });
 
 
 
