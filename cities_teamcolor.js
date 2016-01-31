@@ -6,7 +6,7 @@ var arcdata = [{
     index: 19.63042799,
     rank: 22,
     gradient: [{
-        offset: "30%",
+        offset: "20%",
         color: "#97233F"
     }],
     byTime:[{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"}]
@@ -150,7 +150,7 @@ var arcdata = [{
     index: 21.12492739,
     rank: 19,
     gradient: [{
-        offset: "80%",
+        offset: "20%",
         color: "#0B2265"
     }],
     byTime:[{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"}]
@@ -234,7 +234,7 @@ var arcdata = [{
     index: 100,
     rank: 1,
     gradient: [{
-        offset: "60%",
+        offset: "40%",
         color: "#002244"
     }],
     byTime:[{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"}]
@@ -258,7 +258,7 @@ var arcdata = [{
     index: 82.16294604,
     rank: 3,
     gradient: [{
-        offset: "10%",
+        offset: "7%",
         color: "#69BE28"
     }],
     byTime:[{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"}]
@@ -307,7 +307,7 @@ var arcdata = [{
     index: 69.87600084,
     rank: 7,
     gradient: [{
-        offset: "40%",
+        offset: "20%",
         color: "#4F2683"
     }],
     byTime:[{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"}]
