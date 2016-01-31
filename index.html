@@ -57,7 +57,7 @@ body {
     <script>
     var screenHeight = $(window).height();
     var screenWidth = $(window).width();
-
+    
     var width = 960;
     var height = 500;
 
@@ -363,18 +363,6 @@ body {
                         }
                     });
 
-                 d3.selectAll(".rank")
-                    // .transition()
-                    .style("opacity", 0)
-
-                d3.selectAll(".team")
-                    // .transition()
-                    .style("opacity", 0)
-
-                d3.selectAll("#top10")
-                    // .transition()
-                    .style("opacity", 0)
-
 
 
             })
@@ -445,6 +433,9 @@ body {
                     .attr("height", 120);
             })
             .on("mouseout", function() {
+                
+                if (screenWidth > 420) {
+
                 d3.selectAll(".rank")
                     .transition()
                     .duration(100)
@@ -459,6 +450,7 @@ body {
                     .transition()
                     .duration(100)
                     .style("opacity", 1);
+                }
 
 
                 d3.select(".showtext")
@@ -577,19 +569,6 @@ body {
                         }
                     });
 
-                 d3.selectAll(".rank")
-                    // .transition()
-                    .style("opacity", 0)
-
-                d3.selectAll(".team")
-                    // .transition()
-                    .style("opacity", 0)
-
-                d3.selectAll("#top10")
-                    // .transition()
-                    .style("opacity", 0)
-
-
             })
             .on("click", function(d) {
 
@@ -661,6 +640,9 @@ body {
                     .attr("height", 120);
             })
             .on("mouseout", function() {
+
+                if (screenWidth > 420){
+
                 d3.selectAll(".rank")
                     .transition()
                     .duration(100)
@@ -675,6 +657,8 @@ body {
                     .transition()
                     .duration(100)
                     .style("opacity", 1);
+
+                }
 
 
                 d3.select(".showtext")
