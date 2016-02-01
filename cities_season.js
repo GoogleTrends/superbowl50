@@ -151,7 +151,7 @@ var arcdata = [{
     rank: 19,
     gradient: [{
         offset: "20%",
-        color: "#0B2265"
+        color: "grey"
     }],
     byTime:[{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"},{time: "1", color:"grey"}]
 }, {
